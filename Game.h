@@ -25,12 +25,12 @@ enum
 
 #define	WIDTH		16
 #define	HEIGHT		2
-#define	RED_BG		12
-#define	GREEN_BG	14
-#define	BLUE_BG		15
+#define	RED_BG		3
+#define	GREEN_BG	5
+#define	BLUE_BG		6
 
-#define	TILT_PINA	16
-#define	TILT_PINB	17
+#define	TILT_PINA	2
+#define	TILT_PINB	4
 #define	TILT_MID	1
 #define	TILT_L		0
 #define	TILT_R		2
