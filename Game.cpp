@@ -1,7 +1,8 @@
 #include "Game.h"
+#include "Hardware.h"
 
 //Enable the LCD object with the controls pins
-LiquidCrystal lcd(7,8,9,10,11,12);
+//LiquidCrystal lcd(7,8,9,10,11,12);
 
 unsigned long gTime;
 long gPrevTime		=	0;

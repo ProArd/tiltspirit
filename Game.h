@@ -7,7 +7,7 @@
 	#include "WProgram.h"
 #endif
 
-#include <LiquidCrystal.h>
+//#include <LiquidCrystal.h>
 
 //*	Nov  2,	2012	<MLS> Changed defines to enum
 enum 
@@ -23,17 +23,6 @@ enum
 };
 
 
-#define	WIDTH		16
-#define	HEIGHT		2
-#define	RED_BG		3
-#define	GREEN_BG	5
-#define	BLUE_BG		6
-
-#define	TILT_PINA	2
-#define	TILT_PINB	4
-#define	TILT_MID	1
-#define	TILT_L		0
-#define	TILT_R		2
 
 extern unsigned long	gTime;
 extern long	gPrevTime;
@@ -68,7 +57,7 @@ extern byte squiGhost3R[8];
   
 
 //Enable the LCD object with the controls pins
-extern LiquidCrystal lcd;
+//extern LiquidCrystal lcd;
 
 
   int gameTitle();

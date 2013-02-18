@@ -12,6 +12,7 @@
 //*	Nov  2,	2012	<MLS> Code review
 //************************************************************************
 #include <LiquidCrystal.h>
+#include "Hardware.h"
 #include "Game.h"
 
 
